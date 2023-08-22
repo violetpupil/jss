@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+</head>
+
+<body>
+  <table id="TableToExport">
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>joy</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>amy</td>
+        <td>18</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button id="export"><b>Export as XLSX</b></button>
+  <script>
+    // https://sheetjs.com/
+    // https://docs.sheetjs.com/docs/
+    document.getElementById("export").addEventListener('click', function () {
+      /* Create worksheet from HTML DOM TABLE */
+      const table = document.getElementById("TableToExport");
+      var wb = XLSX.utils.table_to_book(table);
+      /* Export to file (start a download) */
+      XLSX.writeFile(wb, "SheetJSTable.xlsx");
+    });
+  </script>
+</body>
+
+</html>
