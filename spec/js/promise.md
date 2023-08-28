@@ -2,4 +2,6 @@
 
 ## Instance methods
 
-then()
+catch() 添加异常处理器，返回新的promise
+
+then() 添加处理器，返回新的promise
