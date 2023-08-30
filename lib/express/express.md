@@ -9,4 +9,7 @@ npm init
 npm install express
 # 安装依赖
 npm install
+# 运行
+# http://localhost:3000/
+node index.js
 ```
