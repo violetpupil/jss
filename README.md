@@ -8,6 +8,6 @@ lib 第三方库
 
 nodejs
 
-spec html,css,javascript文档
+spec 语言
 
-tools 工具文档
+tools 工具
