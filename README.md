@@ -1,5 +1,7 @@
 # jss
 
+examples目录是示例
+
 ## 一级目录
 
 browser 浏览器api
