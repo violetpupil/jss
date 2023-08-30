@@ -7,6 +7,10 @@
 ```bash
 # 创建package.json
 npm init
+# 修改package.json
+# 使用es模块
+# "type": "module"
+vi package.json
 # 安装express
 npm install express
 # 安装依赖
