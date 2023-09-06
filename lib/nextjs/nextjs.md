@@ -13,3 +13,9 @@ npx create-next-app@latest
 # http://localhost:3000
 npm run dev
 ```
+
+## faq
+
+Q: app/globals.css提示Unknown at rule @tailwind
+
+A: 安装PostCSS Language Support插件
