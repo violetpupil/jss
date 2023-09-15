@@ -7,4 +7,8 @@
 ```bash
 # 创建项目
 pnpm dlx create-umi@latest
+# 启动项目
+pnpm dev
+# 构建 ./dist
+pnpm build
 ```
