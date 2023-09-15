@@ -1,6 +1,6 @@
 # modules
 
-Node.js默认使用CommonJS模块，可通过以下方式指定
+Node.js默认使用CommonJS模块，可通过以下方式指定ECMAScript
 
 - .mjs文件扩展名
 - package.json "type": "module"
