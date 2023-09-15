@@ -1,6 +1,6 @@
 # [ts-node](https://typestrong.org/ts-node/)
 
-[install](https://typestrong.org/ts-node/docs/installation)
+vscode运行TypeScript代码
 
 ```bash
 # 安装
