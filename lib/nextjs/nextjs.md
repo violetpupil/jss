@@ -18,4 +18,4 @@ npm run dev
 
 Q: app/globals.css提示Unknown at rule @tailwind
 
-A: 安装PostCSS Language Support插件
+A: vscode安装PostCSS Language Support插件
