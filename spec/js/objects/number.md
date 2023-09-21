@@ -9,3 +9,7 @@
 `MIN_SAFE_INTEGER` 可表示的最小整数 -(2^53-1)
 
 `MIN_VALUE` 可表示的最小正小数
+
+## Static methods
+
+`isSafeInteger()` 整型是否可表示
