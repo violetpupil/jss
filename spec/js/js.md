@@ -2,6 +2,14 @@
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
+```js
+// a one line comment
+
+/* this is a longer,
+ * multi-line comment
+ */
+```
+
 ## [data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 ### Primitive values 基本数据类型
