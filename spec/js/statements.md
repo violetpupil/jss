@@ -8,3 +8,10 @@ if () {}
 ```
 
 ## Declarations
+
+```js
+// 声明变量
+let a = 1;
+// 声明常量
+const b = 2;
+```
