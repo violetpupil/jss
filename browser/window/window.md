@@ -6,6 +6,8 @@
 
 `document` Document对象
 
+`location` url对象
+
 ## Instance methods
 
 atob() base64解码

@@ -10,3 +10,10 @@ On the server-side it uses the native node.js http module, while on the client (
 <!-- 引入 -->
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 ```
+
+```js
+// post请求，json请求体
+axios.post(`http://httpbin.org/post`, { "key": "value" }).
+  then(response => console.log(response)).
+  catch(error => console.log(error))
+```
