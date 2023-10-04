@@ -17,3 +17,7 @@ axios.post(`http://httpbin.org/post`, { "key": "value" }).
   then(response => console.log(response)).
   catch(error => console.log(error))
 ```
+
+## [响应](https://axios-http.com/docs/res_schema)
+
+`data` 响应体，json响应自动转为对象
