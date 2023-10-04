@@ -10,14 +10,20 @@
 
 `,` 使用多个选择器
 
-## property
+## 常用属性
 
-`width` 宽度
+```css
+/* 表格 */
+th,
+td {
+  /* 实线边框 */
+  border: 1px solid;
+}
 
-`height` 高度
-
-`border`
-
-`border-collapse`
-
-`text-align`
+table {
+  /* cells inside a <table> have shared borders */
+  border-collapse: collapse;
+  /* 文本居中 */
+  text-align: center;
+}
+```
