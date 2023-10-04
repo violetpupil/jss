@@ -1,10 +1,12 @@
 # [nodejs](https://nodejs.org/en)
 
-[安装](https://nodejs.org/en/download)
-
 [文档](https://nodejs.org/en/docs)
 
 [api](https://nodejs.org/api/)
+
+## [安装](https://nodejs.org/en/download)
+
+windows下载 Windows Binary 压缩包，并添加path环境变量
 
 ```bash
 # linux安装在/root/node目录
