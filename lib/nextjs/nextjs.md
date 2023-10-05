@@ -4,14 +4,18 @@
 
 [文档](https://nextjs.org/docs)
 
-[安装](https://nextjs.org/docs/getting-started/installation)
+## [安装](https://nextjs.org/docs/getting-started/installation)
 
 ```bash
-# 创建项目
+# 自动创建项目文件夹
 npx create-next-app@latest
 # Run the Development Server
 # http://localhost:3000
 npm run dev
+# 运行生产服务器
+npm run start
+# 构建
+npm run build
 ```
 
 ## faq
