@@ -16,6 +16,10 @@ On the server-side it uses the native node.js http module, while on the client (
 axios.post(`http://httpbin.org/post`, { "key": "value" }).
   then(response => console.log(response)).
   catch(error => console.log(error))
+// get请求
+axios.get(`http://httpbin.org/get`).
+  then(response => console.log(response)).
+  catch(error => console.log(error))
 ```
 
 ## [响应](https://axios-http.com/docs/res_schema)
