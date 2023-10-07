@@ -8,6 +8,10 @@
 
 `<div>` 其它元素的容器
 
+## Inline text semantics
+
+`<strong>` 文本加粗
+
 ## Scripting
 
 `<script>` js代码
