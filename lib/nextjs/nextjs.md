@@ -21,7 +21,10 @@ npm run build
 ### 手动安装
 
 ```bash
+# 安装项目依赖
 npm install next@latest react@latest react-dom@latest
+# 安装typescript开发依赖
+npm install typescript@latest @types/node@latest @types/react@latest @types/react-dom@latest -D
 ```
 
 ```json
