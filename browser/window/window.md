@@ -10,6 +10,8 @@
 
 ## Instance methods
 
+addEventListener() Register an event handler to a specific event type on the window.
+
 atob() base64解码
 
 alert() Displays an alert dialog.
@@ -19,3 +21,7 @@ btoa() base64编码
 setInterval() 每多少毫秒执行函数
 
 setTimeout() 多少毫秒后执行函数
+
+## Events
+
+resize 窗口大小变化
