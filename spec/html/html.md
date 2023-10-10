@@ -2,10 +2,11 @@
 
 ```html
 <html>
-<header>
+
+<head>
   <!-- 防止nginx返回的中文页面乱码 -->
   <meta charset="utf-8">
-</header>
+</head>
 
 <body></body>
 
