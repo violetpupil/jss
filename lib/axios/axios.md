@@ -13,9 +13,9 @@ On the server-side it uses the native node.js http module, while on the client (
 
 ## [Request Config](https://axios-http.com/docs/req_config)
 
-`headers` 请求头对象
+`headers` 请求头对象 {"key": "value"}
 
-`params` 查询字符串对象
+`params` 查询字符串对象 {key: "value"}
 
 ## [响应](https://axios-http.com/docs/res_schema)
 
