@@ -11,16 +11,11 @@ On the server-side it uses the native node.js http module, while on the client (
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 ```
 
-```js
-// post请求，json请求体
-axios.post(`http://httpbin.org/post`, { "key": "value" }).
-  then(response => console.log(response)).
-  catch(error => console.log(error))
-// get请求
-axios.get(`http://httpbin.org/get`).
-  then(response => console.log(response)).
-  catch(error => console.log(error))
-```
+## [Request Config](https://axios-http.com/docs/req_config)
+
+`headers` 请求头对象
+
+`params` 查询字符串对象
 
 ## [响应](https://axios-http.com/docs/res_schema)
 
