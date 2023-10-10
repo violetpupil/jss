@@ -6,6 +6,8 @@ series 绘制系列数组
 
 `type` 坐标轴类型，默认为'category'，适用于离散数据
 
+`boundaryGap` 坐标轴两边留白策略，默认为true，留白
+
 `data` 坐标值数组
 
 ## yAxis y轴必须有
