@@ -1,10 +1,16 @@
 # [option](https://echarts.apache.org/zh/option.html)
 
-xAxis x轴
-
-yAxis y轴
-
 series 绘制系列数组
+
+## xAxis 显示x轴
+
+`type` 坐标轴类型，默认为'category'，适用于离散数据
+
+`data` 坐标值数组
+
+## yAxis 显示y轴
+
+`type` 坐标轴类型，默认为'value'，适用于连续数据
 
 ## legend 图例
 
