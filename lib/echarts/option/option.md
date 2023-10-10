@@ -1,12 +1,14 @@
 # [option](https://echarts.apache.org/zh/option.html)
 
-`legend` 图例
+xAxis x轴
 
-`xAxis` x轴
+yAxis y轴
 
-`yAxis` y轴
+series 绘制系列数组
 
-`series` 绘制序列
+## legend 图例
+
+`data` 和绘制系列name对应的字符串数组
 
 ## tooltip 数值悬浮框
 
