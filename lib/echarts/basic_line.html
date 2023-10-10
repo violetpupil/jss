@@ -13,12 +13,36 @@
 
 <body>
   <!-- 基础折线图 -->
+  <!-- https://echarts.apache.org/examples/zh/editor.html?c=line-simple -->
   <div id="main"></div>
   <script>
     let dom = document.getElementById("main")
     let chart = echarts.init(dom)
 
-    let option = {}
+    let option = {
+      xAxis: {
+        type: 'category',
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+      },
+      yAxis: {
+        type: 'value'
+      },
+      series: [
+        {
+          name: "数量",
+          data: [150, 230, 224, 218, 135, 147, 260],
+          type: 'line'
+        }
+      ],
+      legend: {
+        data: ["数量"]
+      },
+      tooltip: {
+        show: true,
+        borderWidth: 0,
+        trigger: 'axis'
+      }
+    }
     chart.setOption(option)
     window.addEventListener("resize", chart.resize)
   </script>
