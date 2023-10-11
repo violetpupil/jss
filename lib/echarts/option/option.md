@@ -2,6 +2,10 @@
 
 series 绘制系列数组
 
+## title
+
+`text` 标题
+
 ## xAxis x轴必须有
 
 `type` 坐标轴类型，默认为'category'，适用于离散数据
