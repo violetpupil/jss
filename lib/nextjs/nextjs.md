@@ -39,6 +39,12 @@ npm install typescript@latest @types/node@latest @types/react@latest @types/reac
 }
 ```
 
+## [Project Structure](https://nextjs.org/docs/getting-started/project-structure)
+
+- app 网站根目录页面
+  - favicon.ico 网站图标
+- public 静态文件，代码可以用/引用
+
 ## faq
 
 Q: app/globals.css提示Unknown at rule @tailwind
