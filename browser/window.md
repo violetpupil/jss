@@ -8,6 +8,8 @@
 
 `location` url对象
 
+`localStorage` 本地存储
+
 ## Instance methods
 
 addEventListener() Register an event handler to a specific event type on the window.
