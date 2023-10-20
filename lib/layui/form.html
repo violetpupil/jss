@@ -9,10 +9,20 @@
   <!-- https://layui.dev/docs/2.8/form/ -->
   <div class="layui-form">
     <!-- https://layui.dev/docs/2.8/form/checkbox.html -->
-    <!-- 开关风格 -->
+    <!-- 开关风格 lay-skin="switch" -->
     <!-- 使用 title 属性设置文本 -->
-    <input type="checkbox" title="ON|OFF" lay-skin="switch" checked>
+    <!-- 添加过滤器 lay-filter='' -->
+    <input type="checkbox" title="ON|OFF" lay-skin="switch" lay-filter='switch' checked>
   </div>
+
+  <script>
+    layui.use(['form'], function () {
+      // 切换事件处理 指定过滤器
+      layui.form.on('switch(switch)', function () {
+        console.log(this.checked ? 'on' : 'off');
+      })
+    })
+  </script>
 </body>
 
 </html>
