@@ -1,3 +1,4 @@
+// npx create-next-app@latest 生成
 {
   "compilerOptions": {
     "target": "es5",
