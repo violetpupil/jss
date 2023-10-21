@@ -24,7 +24,7 @@ clearInterval() 取消间隔执行
 
 clearTimeout() 取消延迟执行
 
-setInterval() 每多少毫秒执行函数
+setInterval() 每多少毫秒执行函数，返回 intervalID
 
 setTimeout() 多少毫秒后执行函数
 
