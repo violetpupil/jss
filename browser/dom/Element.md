@@ -9,3 +9,9 @@
 ### Mouse events
 
 `click` 鼠标点击
+
+### Keyboard events
+
+`keydown` Fired when a key is pressed.
+
+`keyup` Fired when a key is released.
