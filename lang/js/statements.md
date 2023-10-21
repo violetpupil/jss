@@ -5,6 +5,8 @@
 ```js
 // if语句
 if () {}
+// 判断 v 是否有值
+if (v) {}
 ```
 
 ## Declarations
