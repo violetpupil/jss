@@ -20,6 +20,10 @@ alert() Displays an alert dialog.
 
 btoa() base64编码
 
+clearInterval() 取消间隔执行
+
+clearTimeout() 取消延迟执行
+
 setInterval() 每多少毫秒执行函数
 
 setTimeout() 多少毫秒后执行函数
