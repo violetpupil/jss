@@ -10,6 +10,8 @@
 
 ## Inline text semantics
 
+`<br>` 换行
+
 `<strong>` 文本加粗
 
 ## Scripting
