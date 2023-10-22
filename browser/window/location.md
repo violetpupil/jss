@@ -9,3 +9,7 @@ url对象
 `hostname` A string containing the domain of the URL.
 
 `port` A string containing the port number of the URL.
+
+## Instance methods
+
+`reload()` 刷新页面
