@@ -1,5 +1,9 @@
 # [nextjs](https://nextjs.org/)
 
+[react](https://nextjs.org/learn/react-foundations)
+
+[example](https://nextjs.org/learn/dashboard-app)
+
 [文档](https://nextjs.org/docs)
 
 ## [安装](https://nextjs.org/docs/getting-started/installation)
