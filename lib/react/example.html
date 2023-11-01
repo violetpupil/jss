@@ -12,10 +12,15 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
   <!-- 声明jsx -->
-  <script type="text/jsx">
+  <script type="text/babel">
     const app = document.getElementById('app');
+
+    function Header() {
+      return <h1>Develop. Preview. Ship. 🚀</h1>
+    }
+
     // 加载jsx
-    ReactDOM.render(<h1>Develop. Preview. Ship. 🚀</h1>, app);
+    ReactDOM.render(<Header />, app);
   </script>
 </body>
 
