@@ -15,12 +15,31 @@
   <script type="text/babel">
     const app = document.getElementById('app');
 
-    function Header() {
-      return <h1>Develop. Preview. Ship. 🚀</h1>
+    // 接收 props 参数
+    function Header({ title }) {
+      // 在 jsx 中，使用 {} 写 js
+      return <h1>{title}</h1>
     }
 
-    // 加载jsx
-    ReactDOM.render(<Header />, app);
+    function HomePage() {
+      const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+
+      // 传递 props 参数
+      // react 需要用数组元素的 key prop 做唯一标识
+      return (
+        <div>
+          <Header title="React 💙" />
+          <ul>
+            {
+              names.map(name => <li key={name}>{name}</li>)
+            }
+          </ul>
+        </div>
+      )
+    }
+
+    // 加载
+    ReactDOM.render(<HomePage />, app);
   </script>
 </body>
 
