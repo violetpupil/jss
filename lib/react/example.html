@@ -23,9 +23,18 @@
 
     function HomePage() {
       const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+      // 使用 state，更新时自动加载
+      // 第一个元素是值，第二个元素是更新函数，传参设置初始值
+      const [likes, setLikes] = React.useState(0)
+
+      // 处理点击事件
+      function handleClick() {
+        setLikes(likes + 1)
+      }
 
       // 传递 props 参数
       // react 需要用数组元素的 key prop 做唯一标识
+      // In React, event names are camelCased.
       return (
         <div>
           <Header title="React 💙" />
@@ -34,6 +43,8 @@
               names.map(name => <li key={name}>{name}</li>)
             }
           </ul>
+
+          <button onClick={handleClick}>Like ({likes})</button>
         </div>
       )
     }
