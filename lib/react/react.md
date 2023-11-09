@@ -11,5 +11,3 @@
 [教程](https://nextjs.org/learn/react-foundations)
 
 React component names must always start with a capital letter, while HTML tags must be lowercase.
-
-包含jsx的typescript文件扩展名.tsx
