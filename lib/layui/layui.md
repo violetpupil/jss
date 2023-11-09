@@ -4,7 +4,7 @@
 
 ```html
 <!-- 引入 layui.css -->
-<link href="http://unpkg.com/layui@2.8.17/dist/css/layui.css" rel="stylesheet">
+<link href="https://unpkg.com/layui@2.8.17/dist/css/layui.css" rel="stylesheet">
 <!-- 引入 layui.js -->
-<script src="http://unpkg.com/layui@2.8.17/dist/layui.js"></script>
+<script src="https://unpkg.com/layui@2.8.17/dist/layui.js"></script>
 ```
