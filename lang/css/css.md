@@ -27,3 +27,14 @@ table {
   text-align: center;
 }
 ```
+
+```css
+/* 箭头 */
+.arrow {
+  height: 0;
+  width: 0;
+  border-left: 30px solid black;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+```
