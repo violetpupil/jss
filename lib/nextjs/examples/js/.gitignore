@@ -1,5 +1,6 @@
 node_modules
 # nextjs运行文件
 .next
+next-env.d.ts
 # 静态构建目录
 out
