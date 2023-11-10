@@ -3,3 +3,9 @@
 [dev](https://ant-design.antgroup.com/docs/react/introduce-cn)
 
 [components](https://ant-design.antgroup.com/components/overview-cn/)
+
+## 安装
+
+```bash
+npm install antd
+```
