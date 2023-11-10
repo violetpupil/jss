@@ -9,7 +9,7 @@
 const nextConfig = {
   output: 'export',
   distDir: 'html',
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;
 ```
