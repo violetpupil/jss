@@ -5,7 +5,7 @@
 ```js
 import { redirect } from "next/navigation";
 
-// 组件直接重定向
+// page.js 直接重定向
 export default function Page() {
   redirect("/example");
 }
