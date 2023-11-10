@@ -4,8 +4,9 @@
 
 [components](https://ant-design.antgroup.com/components/overview-cn/)
 
-## 安装
+## [在 Next.js 中使用](https://ant-design.antgroup.com/docs/react/use-with-next-cn)
 
 ```bash
+# 安装 antd
 npm install antd
 ```
