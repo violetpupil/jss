@@ -3,9 +3,9 @@
 ## [redirect](https://nextjs.org/docs/app/api-reference/functions/redirect)
 
 ```js
+// page.js 路由重定向
 import { redirect } from "next/navigation";
 
-// page.js 直接重定向
 export default function Page() {
   redirect("/example");
 }
