@@ -13,8 +13,6 @@ npm install antd
 
 ### 解决页面闪动
 
-适用于 Next.js 14 以下版本
-
 1 安装typescript开发依赖
 
 2 安装依赖 `npm install @ant-design/cssinjs`
@@ -25,7 +23,10 @@ npm install antd
 'use client';
 
 import React from 'react';
+// 适用于 Next.js 14 以下版本
 import { createCache, extractStyle, StyleProvider } from '@ant-design/cssinjs';
+// 适用于 Next.js 14 版本
+import { createCache, extractStyle, StyleProvider } from '@ant-design/cssinjs/lib';
 import type Entity from '@ant-design/cssinjs/es/Cache';
 import { useServerInsertedHTML } from 'next/navigation';
 
