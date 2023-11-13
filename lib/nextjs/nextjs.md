@@ -41,6 +41,8 @@ npm install typescript@latest @types/node@latest @types/react@latest @types/reac
 }
 ```
 
+typescript 开发需忽略 next-env.d.ts 文件，并在根目录增加配置 tsconfig.json
+
 ## faq
 
 Q: app/globals.css提示Unknown at rule @tailwind
