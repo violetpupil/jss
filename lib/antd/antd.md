@@ -15,9 +15,11 @@ npm install antd
 
 适用于 Next.js 14 以下版本
 
-1 安装依赖 `npm install @ant-design/cssinjs`
+1 安装typescript开发依赖
 
-2 创建文件 lib/AntdRegistry.tsx
+2 安装依赖 `npm install @ant-design/cssinjs`
+
+3 创建文件 lib/AntdRegistry.tsx
 
 ```ts
 'use client';
@@ -41,7 +43,7 @@ const StyledComponentsRegistry = ({ children }: React.PropsWithChildren) => {
 export default StyledComponentsRegistry;
 ```
 
-3 修改 RootLayout
+4 修改 RootLayout
 
 ```js
 import StyledComponentsRegistry from "../lib/AntdRegistry";
