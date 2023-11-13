@@ -31,9 +31,10 @@ npm install typescript@latest @types/node@latest @types/react@latest @types/reac
 
 ```json
 // Open your package.json file and add the following scripts:
+// 指定端口 next dev -p 3001
 {
   "scripts": {
-    "dev": "next dev", // 指定端口 next dev -p 3001
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

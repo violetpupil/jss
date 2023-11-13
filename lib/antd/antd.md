@@ -15,7 +15,7 @@ npm install antd
 
 1 安装typescript开发依赖
 
-2 安装依赖 `npm install @ant-design/cssinjs`
+2 安装依赖 `npm install @ant-design/cssinjs@1.17.2`
 
 3 创建文件 lib/AntdRegistry.tsx
 
