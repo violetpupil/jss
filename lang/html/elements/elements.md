@@ -8,6 +8,8 @@
 
 `<div>` 其它元素的容器
 
+`<hr>` 分割线
+
 ## Inline text semantics
 
 `<br>` 换行
