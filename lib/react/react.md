@@ -8,6 +8,4 @@
 
 [插件](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
-[教程](https://nextjs.org/learn/react-foundations)
-
 React component names must always start with a capital letter, while HTML tags must be lowercase.
