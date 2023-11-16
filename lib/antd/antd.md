@@ -14,3 +14,8 @@ npm install antd
 [文档](https://procomponents.ant.design/docs)
 
 [组件](https://procomponents.ant.design/components)
+
+```bash
+# 安装
+npm i @ant-design/pro-components
+```
