@@ -24,3 +24,7 @@
     let isLoggedIn = false;
     let div = <div>{isLoggedIn && <AdminPanel />}</div>;
     ```
+
+7) react 需要用列表元素的 key 属性做唯一标识
+
+8) react 事件属性用驼峰，只需指定函数名 `<button onClick={handleClick}></button>`
