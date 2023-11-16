@@ -13,3 +13,11 @@ console.log(0 === false);
 // 解构赋值
 const { a, b } = { a: 1, b: 2 };
 ```
+
+## [&&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
+
+```js
+// 第一个操作数为真，返回第二个操作数
+// 第一个操作数为假，返回第一个操作数
+console.log(0 && 2);
+```
