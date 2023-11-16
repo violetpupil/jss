@@ -21,3 +21,11 @@ const { a, b } = { a: 1, b: 2 };
 // 第一个操作数为假，返回第一个操作数
 console.log(0 && 2);
 ```
+
+## [...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+```js
+// 把 o1 的字段添加到 o2 里
+let o1 = { a: 1 };
+let o2 = { ...o1, b: 2 };
+```
