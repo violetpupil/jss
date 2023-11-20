@@ -2,7 +2,7 @@
 
 ```js
 // 使用 Link 组件代替 a 标签
-// 页面不重新加载，只部分渲染
+// 页面不重新加载，只渲染部分
 import Link from 'next/link'
  
 export default function Page() {
