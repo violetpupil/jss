@@ -18,6 +18,4 @@ Next.js uses file-system routing, which means the routes in your application are
 
 layout 组件应该接收 `{ children }` 子页面参数
 
-根布局可以自动生成
-
-Root layouts must contain html and body tags.
+根布局必须有，可以自动生成，必须包含 html 和 body 标签
