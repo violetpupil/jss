@@ -12,6 +12,10 @@
 
 `click` 鼠标点击
 
+`mouseenter` 鼠标移入
+
+`mouseleave` 鼠标移出
+
 ### Keyboard events
 
 `keydown` Fired when a key is pressed.
